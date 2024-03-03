@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://kit.fontawesome.com/1e58c0165e.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./script.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <h1 class="title">Find Meals for your ingredients</h1>
+  <p class="sub-title">Real food doesn't have ingredients, real food is ingredients.
+    <br>
+    ~ Jamie Oliver
+    </em>
+  </p>
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Search here...">
+    <button type="submit" id="submit-btn">
+      <i class="fa fa-search"></i>
+    </button>
+  </div>
+
+  <div class="recipe-container">
+    <ul id="recipe">
+    </ul>
+  </div>
+  <ul id="recipe">
+
+  </ul>
+  <div id="recipeModal" class="modal">
+    <div class="modal-content" id="modalContent">
+      <span class="close">&times;</span>
+      <div id="contentToBeCleared">
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
